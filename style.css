@@ -1,0 +1,146 @@
+:root {
+    --color-primario: #fefffe;
+    --color-secundario: #235789;
+    --color-terciario: #C1292E;
+    --color-cuarto: #F1D302;
+    --color-quinto: #161925;
+    --inter-font: "Inter", sans-serif;
+    --console-font: "Console", consolas, monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+header{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 1%;
+    background-color: transparent;
+}
+
+#cuerpoGeneral{
+    display: flex;
+    height: 100vh;
+}
+
+#cuerpoGeneralIzquierda{
+    width: 70%;
+    background-color: var(--color-primario);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-image: url(imgs/fondoIzquierda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#textoEncriptar{
+    margin-top: 15%;
+    width: 70%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: transparent;
+    font-size: 2.5em;
+    color: var(--color-secundario);
+}
+
+#aviso{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-right: 20%;
+    gap: 2%;
+    color: var(--color-primario);
+}
+
+#containerBotonesEncriptar{
+    display: flex;
+    gap: 2%;
+    width: 68%;
+}
+
+#containerBotonesEncriptar button {
+    flex: 1;
+    font-size: 2vw;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+#containerBotonesEncriptar button:active {
+    background-color: var(--color-terciario);
+    color: var(--color-quinto);
+}
+
+#botonEncriptar{
+    background-color: var(--color-cuarto);
+    color: var(--color-quinto);
+}
+
+#botonDesencriptar{
+    background-color: var(--color-quinto);
+    color: var(--color-cuarto);
+}
+
+#cuerpoGeneralDerecha{
+    width: 30%;
+    background-color: var(--color-secundario);
+    background-image: url(imgs/fondoDerecha.jpg);
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#informacionInicial{
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#informacionInicial img{
+    background: transparent;
+    width: 110%;
+    box-sizing: border-box;
+}
+
+#informacionInicial p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#informacionInicial p b{
+    font-size: 1.5em;
+    top: 8dvi;
+    text-align: center;
+}
+
+#box {
+    width: 80%;
+    height: 90%;
+    fill: var(--color-terciario);
+    stroke: white;
+    border-radius: 5%;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 2.5em;
+    color: var(--color-secundario);
+    padding: 5%;
+  }
