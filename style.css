@@ -52,6 +52,7 @@ header{
     border: transparent;
     font-size: 2.5em;
     color: var(--color-secundario);
+    resize: none;
 }
 
 #aviso{
@@ -143,4 +144,22 @@ header{
     font-size: 2.5em;
     color: var(--color-secundario);
     padding: 5%;
+    resize: none;
+  }
+
+  #botonCopiar{
+    position: absolute;
+    bottom: 6dvi;
+    font-size: 3vw;
+    border-radius: 10%;
+    background-color: var(--color-terciario);
+    background-image: url(imgs/botonCopy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 10%;
+  }
+
+  #botonCopiar:active{
+    filter: invert(1);
   }
