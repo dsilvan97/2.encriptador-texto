@@ -1,2 +1,4 @@
-# encriptador-texto
-Programa de encriptador de texto.
+# Encriptador de Texto
+Proyecto de muestra generando un encriptador de texto.
+
+-David Silva Nuñez.
